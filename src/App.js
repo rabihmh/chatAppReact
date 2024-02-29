@@ -13,7 +13,7 @@ function App() {
     try {
       //intialize the connection
       const conn=new HubConnectionBuilder()
-                  .withUrl('http://localhost:5209/chat')
+                  .withUrl('http://localhost:5175/chat')
                   .configureLogging(LogLevel.Information)
                   .build();
       //set up the event handlers
